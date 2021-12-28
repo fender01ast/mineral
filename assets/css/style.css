@@ -17,12 +17,14 @@ a {
     color: #fff;
 }
 .bg-blue button {
-    background: #2797FF;
+    background: #1D74C5;
     color: #fff;
     font-size: 18px;
     border: 0;
     border-radius: 5px;
     padding: 15px 30px;
+
+    transition: all .3s ease;
 }
 a:hover {
     color: #fff;
@@ -52,13 +54,13 @@ nav a {
 }
 
 .date {
-    width: 76px;
-    height: 76px;
+    margin: 0;
+    max-width: 4.22rem;
+    height: 4.22rem;
     padding-top: 26px;
     border-radius: 50%;
 
     background-color: #102441;
-    color: #fff;
 
     text-align: center;
     align-items: center;
@@ -108,12 +110,14 @@ section p {
     font-size: 16px;
 }
 section button {
-    background: #2797FF;
+    background: #1D74C5;
     color: #fff;
     font-size: 18px;
     border: 0;
     border-radius: 5px;
     padding: 5px 20px;
+    transition: all .3s ease;
+
 }
 
 .contacts {
@@ -180,13 +184,40 @@ section button {
     margin-right: 8px;
 }
 
-.callus_icon {
-    color: #102441;
+.callus_icon.insta {
+    background: linear-gradient(to bottom, #feda75, #fa7e1e, #d62976,
+    #962fbf,#4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    transition: all .3s ease;
+}
+
+.callus_icon.vk {
+    background: rgba(89,125,163, 100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    transition: all .3s ease;
+}
+
+.callus_icon.facebook {
+    background: rgba(66,103,178, 100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
     transition: all .3s ease;
 }
 
 .callus_icon:hover {
-    color: #ccd900;
+   transform: translateY(-20%);
+}
+
+.callus_icon {
+    margin-right: 3%;
 }
 
 .logos {
@@ -323,7 +354,7 @@ footer ul li a {
             font-size: 84px;
         }
         section button {
-            background: #2797FF;
+            background: #1D74C5;
             color: #fff;
             font-size: 48px;
             border: 0;
