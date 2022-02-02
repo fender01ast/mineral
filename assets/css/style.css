@@ -305,12 +305,6 @@ footer ul li a {
 
 }
 
-
-.sertefikat {
-    background: url(../img/sertefikat_kompanii.png) no-repeat;
-    background-size: cover;
-}
-
 .animate__animated {
     text-align: center;
 }
@@ -399,10 +393,13 @@ footer ul li a {
             font-size: 3rem;
         }
         p {
-            font-size: 28px;
+            font-size: 30px;
         }
             .h4, h4 {
             font-size: calc(2.275rem + .3vw);
+        }
+        h3 {
+            font-size: 50px;
         }
         footer ul li a {
             color: #fff;
@@ -411,7 +408,7 @@ footer ul li a {
             font-weight: 400;
         }
         footer .col-lg-3 {
-            font-size: 38px;
+            font-size: 28px;
         }
         .dropstart {
             display: block;
