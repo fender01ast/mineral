@@ -417,6 +417,8 @@ section button {
 }
 .btn-news {
     padding: 16px 55px;
+    margin: 50px auto;
+    display: flex;
     
     background-color: #203E75;
     border: none;
