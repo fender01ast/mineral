@@ -12,6 +12,18 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -24,132 +36,139 @@
 </head>
 
 <body>
-    <div class="bg-blue">
-        <header class="header">
-            <nav class="navbar navbar-expand-sm" aria-label="Third navbar example">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html#"><img src="assets/img/logo.png" alt=""></a>
+    <header class="header">
+        <nav class="navbar navbar-expand-sm" aria-label="Third navbar example">
+            <div class="container">
+                <a class="navbar-brand" href="index.html#"><img src="assets/img/logo.png" alt=""></a>
 
-                    <div class="dropdown">
-                        <div class="btn-group dropstart">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="fas fa-align-justify"></i>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="nav-link" href="index.html#">Главная</a></li>
-                                <li><a class="nav-link" href="index.html#">Компания</a></li>
-                                <li><a class="nav-link" href="index.html#" tabindex="-1" aria-disabled="true">Услуги</a>
-                                </li>
-                                <li><a class="nav-link" href="index.html#" tabindex="-1"
-                                        aria-disabled="true">Новости</a>
-                                </li>
-                                <li><a class="nav-link" href="index.html#" tabindex="-1"
-                                        aria-disabled="true">Контакты</a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                <div class="dropdown">
+                    <div class="btn-group dropstart">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-align-justify"></i>
                         </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="nav-link dropdown__link" href="index.html#">Главная</a></li>
+                            <li><a class="nav-link dropdown__link" href="okompanii.html">Компания</a></li>
+                            <li><a class="nav-link dropdown__link" href="uslugi.html" tabindex="-1"
+                                    aria-disabled="true">Услуги</a>
+                            </li>
+                            <li><a class="nav-link dropdown__link" href="news.html" tabindex="-1"
+                                    aria-disabled="true">Новости</a>
+                            </li>
+                            <li><a class="nav-link dropdown__link" href="contacts.html" tabindex="-1"
+                                    aria-disabled="true">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                        <div class="collapse navbar-collapse" id="navbarsExample03">
-                            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                                <li class="nav-item"><a class="nav-link nav__link" href="index.html#">Главная</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav__link" href="okompanii.html">Компания</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav__link" href="uslugi.html" tabindex="-1"
-                                        aria-disabled="true">Услуги</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav__link" href="index.html#" tabindex="-1"
-                                        aria-disabled="true">Новости</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav__link" href="index.html#" tabindex="-1"
-                                        aria-disabled="true">Контакты</a>
-                                </li>
-                            </ul>
-                            <form class="nomb">
-                                <div class="header-lnk">
-                                    <div><a class="nav__link" href="index.html#"><img src="assets/img/phone.png" alt="">
-                                            <b>+7
-                                                (7172) 24
-                                                72
-                                                80</b></a></div>
-                                    <div><a class="nav__link" href="index.html#">Отправить сообщение </a></div>
-                                </div>
-                                <div class="header-lnk">
-                                    <div><a href="index.html#"><img src="assets/img/search.png" alt=""></a></div>
-                                </div>
-                                <div class="header-lnk">
-                                    <div>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary dropdown-toggle" type="button"
-                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <img src="assets/img/ru.png" alt=""> Русский
-                                            </button>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 
-                                            </ul>
-                                        </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                            <li class="nav-item"><a class="nav-link nav__link" href="index.html#">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav__link" href="okompanii.html">Компания</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav__link" href="uslugi.html" tabindex="-1"
+                                    aria-disabled="true">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav__link" href="news.html" tabindex="-1"
+                                    aria-disabled="true">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav__link" href="contacts.html" tabindex="-1"
+                                    aria-disabled="true">Контакты</a>
+                            </li>
+                        </ul>
+                        <form class="nomb">
+                            <div class="header-lnk">
+                                <div><a class="nav__link" href="index.html#"><img src="assets/img/phone.png" alt="">
+                                        <b>+7
+                                            (7172) 24
+                                            72
+                                            80</b></a></div>
+                                <div><a class="nav__link" href="#popup">Отправить сообщение </a></div>
+                            </div>
+                            <div class="header-lnk">
+                                <div><a href="index.html#"><img src="assets/img/search.png" alt=""></a></div>
+                            </div>
+                            <div class="header-lnk">
+                                <div>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="assets/img/ru.png" alt="">
+                                            Русский
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">
+                                                    <img src="assets/img/en.png" alt="">
+                                                    Английский
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <img src="assets/img/kz.png" alt="">
+                                                    Казахский
+                                                </a></li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
                     </div>
-            </nav>
-        </header>
+                </div>
+        </nav>
+    </header>
 
-        <div class="abb">
-            <div class="container">
-                <div class="row">
+    <div class="abb">
+        <div class="container">
+            <div class="row">
 
-                    <div class="col-lg-7">
-                        <h1>Оказание полного спектра услуг в
-                            области<br>недропользования</h1>
-                        <div class="d-flex">
-                            <div class="col-sm-7 d-flex align-items-center" style="margin: 10px 0;">
-                                <img src="assets/img/star.png" alt="">
-                                <p style="margin-left: 5px;"><b>Высококвалифицированные специалисты</b></p>
-                            </div>
-                            <div class="col-sm-6 d-flex align-items-center" style="margin: 10px 0;">
-                                <img src="assets/img/star.png" alt="">
-                                <p style="margin-left: 5px;"><b>Передовые технологии</b></p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="col-sm-7 d-flex align-items-center" style="margin: 10px 0;">
-                                <img src="assets/img/star.png" alt="">
-                                <p style="margin-left: 5px;"><b>Современные методы разведки</b></p>
-                            </div>
-                            <div class="col-sm-5 d-flex align-items-center" style="margin: 10px 0;">
-                                <img src="assets/img/star.png" alt="">
-                                <p style="margin-left: 5px;"><b>Налаженная сеть партенров</b></p>
-                            </div>
+                <div class="col-lg-7">
+                    <h1>Оказание полного спектра услуг в
+                        области недропользования</h1>
+                    <div class="d-flex">
+                        <div class="col-sm-7 d-flex align-items-center" style="margin: 10px 0;">
+                            <img src="assets/img/star.png" alt="">
+                            <p style="margin-left: 5px;"><b>Высококвалифицированные специалисты</b></p>
                         </div>
                         <div class="col-sm-6 d-flex align-items-center" style="margin: 10px 0;">
                             <img src="assets/img/star.png" alt="">
-                            <p style="margin-left: 5px;"><b>Контроль качества</b></p>
+                            <p style="margin-left: 5px;"><b>Передовые технологии</b></p>
                         </div>
-                        </p>
-                        <br><br>
                     </div>
+                    <div class="d-flex">
+                        <div class="col-sm-7 d-flex align-items-center" style="margin: 10px 0;">
+                            <img src="assets/img/star.png" alt="">
+                            <p style="margin-left: 5px;"><b>Современные методы разведки</b></p>
+                        </div>
+                        <div class="col-sm-5 d-flex align-items-center" style="margin: 10px 0;">
+                            <img src="assets/img/star.png" alt="">
+                            <p style="margin-left: 5px;"><b>Налаженная сеть партенров</b></p>
+                        </div>
+                    </div>
+                    <div class="col-sm d-flex align-items-center" style="margin: 10px 0;">
+                        <img src="assets/img/star.png" alt="">
+                        <p style="margin-left: 5px;"><b>Контроль качества</b></p>
+                    </div>
+                    </p>
+                    <br><br>
+                </div>
 
-                    <div class="col-lg-5">
-                        <img src="assets/img/video.png" alt="" style="width: 100%;">
-                    </div>
+                <div class="col-lg-5">
+                    <img src="assets/img/video.png" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
+    </div>
 
 
 
@@ -311,40 +330,21 @@
     <section style="padding-bottom: 150px;">
         <div class="container">
             <div class="row">
-                <h2 style="margin-bottom: 100px;" class="text-center">Наши услуги</h2>
+                <h2 style="margin-bottom: 100px;" class="text-center">Принцип нашей работы</h2>
                 <div class="col-lg-6">
-                    <img src="assets/img/11.png" alt="" style="width: 100%;">
-                    <div class="col" style="margin: 20px 0 0 0;">
-                        <h3>Наш Сертификат</h3>
-                        <img src="assets/img/sertefikat.png" alt="" style="max-width: 100%;">
-                    </div>
+                    <img src="assets/img/буровые работы.jpg" alt="" style="width: 100%;">
                 </div>
                 <div class="col-lg-6">
                     <h3>Буровые работы</h3>
-                    <p>Minerals Operating предлагает услуги колонкового бурения, поверхностного, подземного и RC
-                        бурения.<br>
-                        Компания обладает производственно-технической базой для реализации задач по бурению. <br>
-                        В компании применяется самое передовое буровое оборудование, специалистами проводится подбор
-                        оборудования в зависимости от характеристик горной породы, глубины бурения и горнотехнических
-                        условий.<br><br>
-
-                        В компании имеются лицензии для проведения геологоразведочных работ, а также квалифицированный
-                        штат специалистов по бурению. </p>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Широкий спектр услуг по разведочному и техническому
-                                бурению</b>
-                        </p>
-                    </div>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Современные буровые установки высокой мощностью и
-                                производительностью.</b>
-                        </p>
-                    </div>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Оформление технической документации</b>
-                        </p>
-                    </div>
-                    <button>Подробнее об услуге</button>
+                    <p>Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на
+                        территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в
+                        сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована
+                        в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на
+                        нормах и принципах Английского общего права.
+                        МФЦА – это уникальный центр, который использует лучшие практики и подходы международных
+                        финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно
+                        появившимися на рынке.</p>
+                    <a href="open__usluga.html" class="btn btn-primary">Подробнее об услуге</a>
                 </div>
             </div>
         </div>
@@ -353,30 +353,18 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h3>Геологоразведочные работы</h3>
-                    <p>Minerals Operating оказывает полное сопровождение геологоразведочных работ: от разработки
-                        проектной документации до предоставления отчетности по проведенным работам в соответствии с
-                        международными стандартами.
-                    </p>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Проектирование и подготовительные работы</b>
-                        </p>
-                    </div>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Поиск и разведка</b>
-                        </p>
-                    </div>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Разработка отчетов </b>
-                        </p>
-                    </div>
-                    <div class="col-sm d-flex align-items-center">
-                        <p style="margin-left: 10px;"><b>⦁ Лабораторные исследования </b>
-                        </p>
-                    </div>
+                    <p>Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на
+                        территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в
+                        сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована
+                        в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на
+                        нормах и принципах Английского общего права.
+                        МФЦА – это уникальный центр, который использует лучшие практики и подходы международных
+                        финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно
+                        появившимися на рынке.</p>
                     <button>Подробнее об услуге</button>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/img/22.png" alt="" style="width: 100%;">
+                    <img src="assets/img/Геол работы 1.jpg" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -384,52 +372,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/img/33.png" alt="" style="width: 100%;">
-                </div>
-                <div class="col-lg-6">
-                    <h3>Научно-исследовательские работы</h3>
-                    <p>В соответствии с контрактными условиями недропользователь ежегодно осуществляет финансирование
-                        научно-исследовательских, научно-технических и (или) опытно-конструкторских работ (далее -
-                        НИОКР) в размере 1% от совокупного годового дохода за предыдущий год по контрактной
-                        территории.<br><br>
-
-                        Компания Minerals Operating аккредитована в качестве субъекта научной и научно-технической
-                        деятельности, что позволяет принимать участие в научной и (или) научно-технической деятельности
-                        за счет средств государственного бюджета и средств недропользователей РК.<br><br>
-
-                        Сотрудники нашего научно – исследовательского отдела - это кандидаты и доктора технических наук,
-                        имеющие богатый опыт научно-педагогической деятельности, а также производственный опыт в
-                        горнорудных предприятиях, а также являются авторами патентов в области геологии, минеральных
-                        ресурсов, ими опубликовано более 50 научных материалов, как в отечественных изданиях, так и
-                        зарубежных.
-                    </p>
-                    <button>Подробнее об услуге</button>
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h3>Геологоразведочные работы</h3>
-                    <p>Minerals Operating предоставляет комплекс геофизических услуг с применением передового
-                        оборудования и возможностей наземной (магниторазведка, электроразведка) и аэрогеофизики.<br><br>
-                        Реализация геофизических исследований проводится в соответствии с международными стандартами, а
-                        выбор и применение геофизических технологий осуществляется на основе качественного анализа и
-                        проверки на эффективность и результат времени.
-                    </p>
-                    <button>Подробнее об услуге</button>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/img/22.png" alt="" style="width: 100%;">
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/img/33.png" alt="" style="width: 100%;">
+                    <img src="assets/img/Начно иссле работы 1.jpg" alt="" style="width: 100%;">
                 </div>
                 <div class="col-lg-6">
                     <h3>Научно-исследовательские работы</h3>
@@ -449,28 +392,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h3>Проектирование горных производств</h3>
-                    <p>Специалисты Minerals Operating занимаются разработкой документации для каждого этапа горных
-                        работ.<br><br>
-                        В задачу проектировщиков компании входит разработка наиболее удобной схемы добычи полезных
-                        ископаемых в месторождении с минимальными потерями и минимальной себестоимостью полученного
-                        продукта.<br><br>
-                        При разработке проекта нами учитывается следующее:<br><br><b>⦁ Годовая производительность
-                            карьера по каждому виду полезного ископаемого;</b>
-                        <br><br>
-                        <b>⦁ Нужная степень качества продукции после проведенной процедуры обогащения;</b><br><br>
-                        <b>⦁ Перечень используемой техники и горного оборудования;</b><br><br>
-                        <b>⦁ Списки проводимых работ, их последовательность и сроки;</b><br><br>
-                        <b>⦁ Подтверждение отсутствия ограничений разработки карьера.</b><br><br>
-                        <b> ⦁ Величина карьера.</b><br><br>
-                        Компания осуществляет услугу «под ключ» до полного согласования проекта с клиентом и
-                        официальными инстанциями.
-
-                    </p>
+                    <h3>Геологоразведочные работы</h3>
+                    <p>Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на
+                        территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в
+                        сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована
+                        в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на
+                        нормах и принципах Английского общего права.
+                        МФЦА – это уникальный центр, который использует лучшие практики и подходы международных
+                        финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно
+                        появившимися на рынке.</p>
                     <button>Подробнее об услуге</button>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/img/22.png" alt="" style="width: 100%;">
+                    <img src="assets/img/геолог работы 2.jpg" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -478,52 +412,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/img/33.png" alt="" style="width: 100%;">
+                    <img src="assets/img/Начно иссле работы 1.jpg" alt="" style="width: 100%;">
                 </div>
                 <div class="col-lg-6">
-                    <h3>Предохранительное проектирование</h3>
-                    <p>В соответствии с Экологическим Кодексом РК, ни одно предприятие, оказывающее неблагоприятное
-                        воздействие на окружающую среду, не имеет права осуществлять свою деятельность без правильно
-                        оформленного экологического проекта. Данную услугу по разработке и согласованию природоохранной
-                        документации предлагает Minerals Operating.<br><br>
-                        Специалисты компании разрабатывают и согласовывают с государственной экспертизой РК следующие
-                        проекты:<br><br>
-                        <b>⦁ Инвентаризация выбросов загрязняющих веществ в атмосферу, источников данных
-                            выбросов.</b><br><br>
-                        <b>⦁ Проектирование нормативов предельно допустимых выбросов.</b><br><br>
-                        <b>⦁ Разработка паспортов отходов с различными классами опасности.</b><br><br>
-                        <b>⦁ Проведение оценки воздействия деятельности предприятия на окружающую среду.</b><br><br>
-                        <b>⦁ Создание программ по оптимальному управлению отходами.</b><br><br>
-                        <b>⦁ Разработка программы с мероприятиями по защите окружающей среды.</b><br><br>
-                        При разработке проектов специалисты Minerals Operating учитывают особенности предприятия,
-                        масштабы и специфику его деятельности, наличие и объем отходов и сточных вод. В процессе расчета
-                        нормативов принимаются во внимание результаты анализа атмосферного воздуха, почвы, которые можно
-                        получить при регулярном проведении экологического контроля. Дополнительно сотрудники
-                        разрабатывают любые виды экологической отчетной документации, а также помогают рассчитать
-                        размеры плат за выбросы вредных веществ в окружающую среду.
-                    </p>
+                    <h3>Научно-исследовательские работы</h3>
+                    <p>Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на
+                        территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в
+                        сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована
+                        в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на
+                        нормах и принципах Английского общего права.
+                        МФЦА – это уникальный центр, который использует лучшие практики и подходы международных
+                        финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно
+                        появившимися на рынке.</p>
                     <button>Подробнее об услуге</button>
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h3>Консалтинговые услуги</h3>
-                    <p>Minerals Operating осуществляет консалтинговые услуги недропользователям, которые включают в себя
-                        проведения маркетинговых исследований, комплексный анализ рынка, проведения экспертной оценки,
-                        анализ сырьевой базы региона, решение актуальных задач в области геологического, экологического,
-                        инвестиционного, правового консалтинга, оценки перспективности проектов, аудит и сопровождение
-                        на всех этапах.<br><br>
-                        Компания учитывает всевозможные риски при приобретении объектов недропользования и проводит
-                        оценку ресурсов объекта недропользования. Специалистами компании осуществляется полное
-                        сопровождение ваших проектов с предоставлением подробных отчетов.
-                    </p>
-                    <button>Подробнее об услуге</button>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/img/22.png" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -533,23 +434,23 @@
         <div class="container">
             <div class="row">
                 <h3 class="text-center">ПОЧЕМУ MINERALS OPERATING?</h3>
-                <div class="col-lg-3 col-md-12 bg-bl1">
+                <div class="col-lg-3 bg-bl1">
                     <div style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/i1.png" alt=""></div>
                     <h6>Клиентоориентированность</h6>
                 </div>
-                <div class="col-lg-3 col-md-12 bg-bl1">
+                <div class="col-lg-3 bg-bl1">
                     <div style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/i2.png" alt=""></div>
                     <h6>Предоставление качественных услуг</h6>
                 </div>
-                <div class="col-lg-3 col-md-12 bg-bl1">
+                <div class="col-lg-3 bg-bl1">
                     <div style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/i3.png" alt=""></div>
                     <h6>Развитие бизнеса</h6>
                 </div>
-                <div class="col-lg-3 col-md-12 bg-bl1">
+                <div class="col-lg-3 bg-bl1">
                     <div style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/i4.png" alt=""></div>
                     <h6>Конфиденциальность</h6>
                 </div>
-                <div class="col-lg-3 col-md-12 bg-bl1">
+                <div class="col-lg-3 bg-bl1">
                     <div style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/i5.png" alt=""></div>
                     <h6>Индивидуальный подход</h6>
                 </div>
@@ -559,6 +460,70 @@
             </div>
         </div>
 
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h3 class="text-center" style="margin-bottom: 50px;">Новости компании</h3>
+            <div class="row d-flex">
+                <a href="#" class="col-sm-4" style="text-decoration: none;">
+                    <div class="card news__item">
+                        <img class="card-img-top" src="assets/img/news.png" alt="Card image cap">
+                        <div class="card-body" style="padding: 20px 15px;">
+                            <div class="date">12.21.2014</div>
+                            <h4 class="card-title" style="color: #141414;">Проектирование горных
+                                производств</h4>
+                            <p class="card-text" style="color: #405267;">Мinerals Operating – это молодая
+                                компания, которая
+                                оказывает
+                                услуги в
+                                сфере недропользования на...</p>
+                            <div class="mask">
+                                <div class="text-white">Открыть новость</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col-sm-4" style="text-decoration: none;">
+                    <div class="card news__item">
+                        <img class="card-img-top" src="assets/img/news.png" alt="Card image cap">
+                        <div class="card-body" style="padding: 20px 15px;">
+                            <div class="date">12.21.2014</div>
+                            <h4 class="card-title" style="color: #141414;">Проектирование горных
+                                производств</h4>
+                            <p class="card-text" style="color: #405267;">Мinerals Operating – это молодая
+                                компания, которая
+                                оказывает
+                                услуги в
+                                сфере недропользования на...</p>
+                            <div class="mask">
+                                <div class="text-white">Открыть новость</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col-sm-4" style="text-decoration: none;">
+                    <div class="card news__item">
+                        <img class="card-img-top" src="assets/img/news.png" alt="Открыть новость">
+                        <div class="card-body" style="padding: 20px 15px;">
+                            <div class="date">12.21.2014</div>
+                            <h4 class="card-title" style="color: #141414;">Проектирование горных
+                                производств</h4>
+                            <p class="card-text" style="color: #405267;">Мinerals Operating – это молодая
+                                компания, которая
+                                оказывает
+                                услуги в
+                                сфере недропользования на...</p>
+                            <div class="mask">
+                                <div class="text-white">Открыть новость</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="news-open.html" class="btn btn-primary btn-news" style="margin: 50px auto;display: flex;">Все
+                новости</a>
+        </div>
     </section>
 
     <section class="vacancy">
@@ -572,7 +537,7 @@
                     В свою очередь, мы готовы предложить вам дружный коллектив, комфортные условия труда и перспективы
                     профессионального роста.<br><br>
                     Если Вы хотите трудоустроиться в нашу компания, направляйте свое резюме на электронный адрес:
-                    info@moperating.kz<br><br>
+                    <a href="#">info@moperating.kz</a><br><br>
                     В случае соотвествия Вашей квалификации вакантной должности, с Вами свяжется наша кадровая служба.
 
                 </p>
@@ -728,6 +693,36 @@
 
     </footer>
 
+
+    <div class='popup' id='popup'>
+        <div class='popup__body'>
+            <div class='popup__content'>
+                <div class="popup__header">
+                    <h1 class="text-center" style="margin: 20px 0;"><b>Оставить заявку</b></h1>
+                    <a href='#' class='popup__close'>X</a>
+                </div>
+                <div class="input-group" style="margin-bottom: 15px;">
+                    <input class="form-control popupinput" type="text" placeholder="Ваше имя"
+                        style="margin-right: 1rem;">
+                    <input class="form-control popupinput" type="text" placeholder="Ваш телефон">
+                </div>
+
+                <div class="input-group">
+                    <textarea class="form-control popupinput" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Сообщение"></textarea>
+                </div>
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-lg-4">
+                        <a href="#" class="btn btn-primary btn-news">Отправить</a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>При нажатии кнопки “отправить”, вы соглашаетесь на обработку
+                            данных</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
