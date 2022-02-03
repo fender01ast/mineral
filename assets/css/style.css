@@ -272,7 +272,7 @@ main {
     color: #fff;
     padding: 320px 0;
 
-    background: url(../img/okomp.jpg);
+    background: url(../img/okomp.webp);
     background-size: cover;
 }
 .okomp {
@@ -629,7 +629,7 @@ footer ul li a {
 .popup__content {
     background-color: #fff;
     max-width: 653px;
-    padding: 10px 30px;
+    padding: 30px;
 }
 
 .popup__close {
@@ -647,9 +647,14 @@ footer ul li a {
 }
 
 .popupinput {
+    margin: 10px;
     padding: 20px 0 20px 20px;
     border: none;
     background: #E3EAF2;
+}
+
+.mobilepop {
+    display: none;
 }
 
 @media (max-width: 1400px) {
@@ -694,6 +699,22 @@ footer ul li a {
 
 
 @media (max-width: 980px) {
+    .pcpop {
+        display: none;
+    }
+    .mobilepop {
+        width: 100%;
+        display: block;
+    }
+    .input-group > .form-control, .input-group > .form-select {
+        width: 97%;
+    }
+    .popupinput {
+        flex-direction: column;
+    }
+    .popupinput::placeholder {
+        font-size: 2rem;
+    }
     .searchgroup {
         width: 100%;
     }
