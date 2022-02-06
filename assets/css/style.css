@@ -446,7 +446,7 @@ section button {
     width: 100%; 
 }
 .map {
-    background-image: url(../img/map-big.png);
+    background-image: url(../img/map-big.webp);
     background-size: cover;
     height: 800px;
 }
@@ -757,7 +757,7 @@ footer ul li a {
         display: none;
     }
     .map {
-        background-image: url(../img/map-big.png);
+        background-image: url(../img/map-big.webp);
         height: 943px;
         background-size: cover;
     }
