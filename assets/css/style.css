@@ -737,6 +737,13 @@ footer ul li a {
 }
 
 @media (max-width: 1200px) {
+    .navbar-expand-sm .navbar-collapse {
+        display: none!important;
+        flex-basis: auto;
+    }
+    .dropstart {
+        display: block;
+    }
     .abb {
         min-height: 50vh;
     }
@@ -915,10 +922,6 @@ footer ul li a {
             color: #484848;
             font-size: 44px;
         }
-        .navbar-expand-sm .navbar-collapse {
-            display: none!important;
-            flex-basis: auto;
-        }
         .btn-secondary {
             padding: 0 !important;
             margin: 0 !important;
@@ -998,9 +1001,6 @@ footer ul li a {
         }
         footer .col-lg-3 {
             font-size: 28px;
-        }
-        .dropstart {
-            display: block;
         }
     }
 
