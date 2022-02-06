@@ -737,6 +737,9 @@ footer ul li a {
 }
 
 @media (max-width: 1200px) {
+    .abb {
+        min-height: 50vh;
+    }
     .top__news-date {
         font-size: 1.4rem;
     }
