@@ -107,8 +107,12 @@ main {
     box-shadow: none;
 }
 
-.dropdown-toggle {
+.btn.btn-secondary.dropdown-toggle {
     display: none;
+}
+
+.btn.dropdown-toggle {
+    display: block;
 }
 
 .dropdown-toggle::after {
@@ -876,7 +880,7 @@ footer ul li a {
 }
 
 @media (max-width: 1200px) {
-    .dropdown-toggle {
+    .btn.btn-secondary.dropdown-toggle {
         display: block;
     }
     .navbar-expand-sm .navbar-collapse {
