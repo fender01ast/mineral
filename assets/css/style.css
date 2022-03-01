@@ -1327,6 +1327,10 @@ footer ul li a {
         flex: 0 0 auto;
         width: 100%;
     }
+    .video-popup__wrapper {
+        bottom: -350px;
+        left: calc(50% - 175px);
+    }
     .sertefikat__img {
         width: 100%;
     }
