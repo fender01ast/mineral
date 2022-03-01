@@ -398,13 +398,16 @@ a:active, :hover, :focus {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: #0d6efd;
+    background-color: #528dc9;
     box-shadow: 0 0 15px 5px rgb(255 255 255 / 50%);
     transition: all .3s linear;
     cursor: pointer;
     z-index: 99;
 }
-
+.btn-primary{
+    background-color: #528dc9 !important;
+    border-color: #528dc9 !important;
+}
 .toTopBtn:after{
     content: '';
     position: absolute;
@@ -434,7 +437,7 @@ a:active, :hover, :focus {
     border-radius: 2px;
     width: 0%;
     height: 100%;
-    background-color: #0d6efd;
+    background-color: #528dc9;
     -webkit-transition: all 300ms linear;
     transition: all 300ms linear;
     /* border-right: 3px solid #fff; */
@@ -447,7 +450,7 @@ a:active, :hover, :focus {
 }
 .leader__link:hover{
     text-decoration-line: none;
-    color: #0d6efd;
+    color: #528dc9;
 }
 .phone-img{
     position: absolute;
@@ -552,7 +555,7 @@ a:active, :hover, :focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #0d6efd;
+    background: #528dc9;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -567,7 +570,7 @@ a:active, :hover, :focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #0d6efd;
+    background: #528dc9;
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -665,7 +668,8 @@ a:active, :hover, :focus {
 }
 
 .intro__body {
-    height: calc(100vh - 98px);
+    /*height: calc(100vh - 98px);*/
+    height: 100vh;
     justify-content: center;
     /*padding: 320px 0 100px 0;*/
     position: relative;
@@ -831,14 +835,21 @@ section button {
 }
 .header {
     /*padding: 20px;*/
-    position: fixed;
+    position: relative;
+    /*position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
     width: 100%;
     z-index: 100;
     background: url(../img/header.png) no-repeat;
     background-size: cover;
+}
+.header.main-page__header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .dropdown-item{
     color: white;
