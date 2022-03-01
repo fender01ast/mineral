@@ -678,7 +678,7 @@ a:active, :hover, :focus {
     flex: 1 1 auto;
     flex-direction: column;
     text-decoration: none;
-
+    padding-top: 150px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
 }
