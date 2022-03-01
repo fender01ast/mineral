@@ -684,7 +684,7 @@ a:active, :hover, :focus {
 .intro__features {
     padding: 0 15px;
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     opacity: .7;
 }
@@ -831,7 +831,10 @@ section button {
 }
 .header {
     /*padding: 20px;*/
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 100;
     background: url(../img/header.png) no-repeat;
