@@ -123,7 +123,7 @@
     </div>
 
     <div class="abb">
-        <a href="#" title="Смотреть видео" class="intro__body">
+        <div href="#" title="Смотреть видео" class="intro__body">
             <div class="container">
                 <div class="row main-wrapper">
                     <div class="col-lg-8">
@@ -155,19 +155,24 @@
                     </div>
 
 
-                    <!--<div class="video-popup__wrapper" style="background: green; width: 350px; height: 350px;">
-                        
-                    </div>-->
+                    <div class="video-popup__wrapper">
+                        <a id="play-video" class="video-play-button" href="#">
+                            <span></span>
+                        </a>
+                        <img src="assets/img/ellipse1.svg" alt="ellipse1" class="video-spin">
+                    </div>
 
 
                 </div>
             </div>
-        </a>
+        </div>
         <video preload="auto" autoplay muted loop class="backgorund__video">
             <source type="video/mp4" src="assets/img/русский_готово_Trim.mp4">
         </video>
     </div>
-
+    <div id="video-overlay" class="video-overlay">
+        <a class="video-overlay-close">&times;</a>
+    </div>
     <section class="about">
         <div class="container">
             <div class="row">
