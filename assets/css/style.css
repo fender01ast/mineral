@@ -443,6 +443,7 @@ a:active, :hover, :focus {
 .leader__link{
     text-decoration-line: none;
     color: #212529;
+    text-align: center;
 }
 .leader__link:hover{
     text-decoration-line: none;
@@ -829,18 +830,21 @@ section button {
     padding: 100px 0;
 }
 .header {
-    padding: 20px;
+    /*padding: 20px;*/
     position: relative;
     width: 100%;
     z-index: 100;
     background: url(../img/header.png) no-repeat;
     background-size: cover;
 }
-
+.dropdown-item{
+    color: white;
+}
 .header-lnk {
     float: left;
     margin-left: 50px;
     position: relative;
+    transform: scale(0.9);
 }
 .header-lnk a {
     text-decoration: none;
@@ -1222,7 +1226,7 @@ footer ul li a {
     .intro__features {
         margin: 0 0 30px 0;
         align-items: center;
-        font-size: 35px;
+        font-size: 14px;
     }
     .intro__features::before {
         top: 14%;
@@ -1467,5 +1471,7 @@ footer ul li a {
         }
     }
 
-
+.breadcrumb{
+    display: none;
+}
 
