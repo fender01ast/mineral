@@ -24,7 +24,22 @@ button {
 button:hover {
     background: #135898;
 }
-
+.uslugi__title-link{
+    color: #212529;
+    text-decoration-line: none;
+}
+.uslugi__title-link:hover{
+    color: #528dc9;
+}
+.btn.btn-primary{
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
 button:active, :hover, :focus {
     outline: 0 !important;
     outline-offset: 0 !important;
@@ -1199,6 +1214,21 @@ section.error,
 main.d-flex,
 section.search{
     margin-top: 98px;
+}
+@media screen and (min-width: 1920px) {
+    .row.main-wrapper h1{
+        font-size: 50px;
+    }
+    .col-sm-1{
+        width: 16.66666667%;
+    }
+    .col-sm-2{
+        width: 21%;
+    }
+    .intro__features{
+        font-size: 22px;
+        font-style: normal;
+    }
 }
 @media (max-width: 1400px) {
     .main__news-open {
