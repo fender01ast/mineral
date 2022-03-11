@@ -807,6 +807,8 @@ a:active, :hover, :focus {
 
     background: url(../img/uslugi_intro.png) no-repeat;
     background-size: cover;
+    background-position: 50% 60%;
+    background-color:rgba(0,0,0,.3);
 }
 
 .intro.uslugi.open {
@@ -840,7 +842,7 @@ section h6 {
 }
 section p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 section button {
     background: #1D74C5;
@@ -1225,6 +1227,9 @@ section.search{
     .col-sm-2{
         width: 21%;
     }
+    .col-sm-3{
+        width: 30%;
+    }
     .intro__features{
         font-size: 22px;
         font-style: normal;
@@ -1283,6 +1288,9 @@ section.search{
 
 
 @media (max-width: 980px) {
+    .desktop-separator{
+        display: none;
+    }
     section.contacts-page,
     div.intro,
     section.error,
