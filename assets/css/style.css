@@ -399,7 +399,7 @@ a:active, :hover, :focus {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 24px;
     letter-spacing: 0em;
 }
 
@@ -1082,12 +1082,27 @@ footer ul li a {
     font-weight: 400;
 
 }
+.sertefikat__item{
+    display: flex;
+    justify-content: center;
+}
 .dropstart {
     display: none;
 }
+.text-center{
+    margin-bottom: 24px;
+}
 .sertefikat__img {
-    width: 400px;
+    max-width: 400px;
     height: auto;
+    max-height: 400px;
+    margin-bottom: 40px;
+}
+.partners__img{
+    width: 190px;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
 }
 .partners__item {
     width: 20%;
